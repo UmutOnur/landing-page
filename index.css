@@ -1,0 +1,220 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    width: 100%;
+    justify-content: center;
+    gap: 30%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.header .left{
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header .right{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bl-header{
+    display: flex;
+    background-color: #1F2937;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    padding-bottom:50px;
+}
+
+.bl-header .container{
+    display: flex;
+    gap: 50px;
+} 
+
+.bl-header .right{
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+    flex-grow: 0;
+    align-self: center;
+}
+
+.bl-header .left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+
+.bl-header .left h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+.bl-header .left p{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    
+}
+
+.bl-header .left button{
+    appearance: button;
+    width: 100px;
+    height: 40px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;   
+    border: none; 
+    border-radius: 5px;
+    
+}
+
+.bl-header .left button:hover{
+    background-color: #275baf;
+}
+
+
+
+.mid{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.mid h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px
+}
+
+.mid .container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mid .container .boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: black;
+    font-weight: 900;
+} 
+
+.mid .container .boxes .content{
+    width: 120px;
+    height: 140px;
+    border: 3px solid #3882F6; 
+    align-self: center;
+    border-radius: 10px;
+}
+
+ 
+
+
+.bl-mid{
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    height: 500px;
+    padding: 150px;
+}
+
+.bl-mid .quote{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    gap: 10px;
+}
+
+.bl-mid .quote .author{
+    align-self: flex-end;
+    font-weight: 1;
+    font-size: 23px;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.bottom .bot-container{
+    display: flex;
+    background-color: #3882F6;
+    width: 50%;
+    height: 130px;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: white;   
+    align-items: center;
+}
+
+.bottom .bot-container .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 15px;
+}
+.kayit{
+    font-size: 36px;
+    padding-top: 15px;
+    font-weight: 900;
+}
+
+.bottom .bot-container .right{
+    appearance: button;
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #3882F6;
+    font-weight: 700;   
+    border: none; 
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.bottom .bot-container .right:hover{
+    background-color: #cfcfcf;
+
+}
+
+
+.footer{
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
