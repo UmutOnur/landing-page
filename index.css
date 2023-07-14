@@ -6,7 +6,7 @@ body, html{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     box-sizing: border-box;
 }
 
